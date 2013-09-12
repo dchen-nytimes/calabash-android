@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Jonas Maturana Larsen"]
   s.email       = ["jonas@lesspainful.com"]
-  s.homepage    = "http://github.com/calabash"
+  s.homepage    = "http://github.com/dchen-nytimes/calabash-android"
   s.summary     = %q{Client for calabash-android for automated functional testing on Android}
   s.description = %q{calabash-android drives tests for native  and hybrid Android apps. }
   s.files         = `git ls-files`.split("\n") + Dir["test-server/calabash-js/src/*.js"] + ["lib/calabash-android/lib/TestServer.apk"]
